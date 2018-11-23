@@ -28,7 +28,9 @@ Author:	Xioyuna
 -------------------------------------------------------------------*/
 
 /************** 1. General *************/
-
+::-webkit-scrollbar {
+    display: none;
+}
 body {
 	background: #fff;
 }

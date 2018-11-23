@@ -7,6 +7,9 @@ html {
 body {
     font-family: -apple-system,BlinkMacSystemFont,SF UI Text,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 iframe {
     width: 375px;
     height: calc(812px - 37px);
@@ -140,7 +143,6 @@ iframe {
 .page-content{
     max-width: 1140px;
     margin: 0 auto;
-    overflow: hidden;
 }
 .ios .style-block-title {
     text-transform: none;
