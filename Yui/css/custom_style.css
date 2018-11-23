@@ -58,11 +58,6 @@
 .ios .list .item-inner:after {
     background-color: transparent;
 }
-.block-question {
-    padding: 10px;
-    color: #000;
-    font-weight: bold;
-}
 .number-col {
     width: 100%;
     padding-bottom: 10px;
@@ -74,9 +69,7 @@
     font-weight: bold;
     background-color: #74cee2 !important;
 }
-.list .item-title {
-    color: #000;
-}
+
 .number-col .item-content {
     border-bottom: 1px solid #e9e9e9;
 }
@@ -125,4 +118,7 @@
 }
 #today-content {
     padding-top: 50px;
+}
+.style-question{
+    font-size: 18px;
 }

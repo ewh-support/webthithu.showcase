@@ -93,9 +93,11 @@ iframe {
 }
 .left img {
     width: 150px;
+
 }
 .right img {
     width: 150px;
+    margin: 0 auto;
 }
 .right div {
     font-size: 15px;
@@ -129,4 +131,31 @@ iframe {
     .right {
         margin: 40px;
     }
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.page-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ios .style-block-title {
+    text-transform: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+.ios .style-block{
+    padding: 0px;
+    text-align: left;
+}
+.style-question{
+    font-size: 18px;
 }
