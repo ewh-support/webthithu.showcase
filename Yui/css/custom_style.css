@@ -59,10 +59,9 @@
     background-color: transparent;
 }
 .block-question {
-    background-color: #74cee2;
     padding: 10px;
-    color: #fff;
-    border: 1px solid #ccc;
+    color: #000;
+    font-weight: bold;
 }
 .number-col {
     width: 100%;
